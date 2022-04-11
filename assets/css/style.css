@@ -148,21 +148,12 @@ section {
     margin-bottom:  15px;
 }
 
+/*First section How we do */
 /* aligning the intro class */
 .intro {
     text-align: center;
 }
 
-/* Added some betterstyles to intro h2 */
-.intro h2 {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: #fce138;
-    display: inline-block;
-}
 
 /* Cleaning up the paragraph text in intro p */
 .intro p {
@@ -172,3 +163,56 @@ section {
     font-size: 20px;
     margin: 0 auto;
 }
+/* End of First section How we Do */
+
+
+/*Start of section 2 What you do */
+/* Adding syling for the higher level of the section */
+.steps {
+    text-align: center;
+    background: #fce138;
+}
+
+.steps div {
+    margin-bottom: 80px;
+}
+
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}
+
+.steps h3 {
+    color: #024e76;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.steps p {
+    color: #39a6b2;
+    font-size: 23px;
+}
+
+.steps span {
+    font-size: 38px;
+}
+/* End of the What you do section */
+
+/* Adding styling for all section */
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+/*End of styling for all sections */
