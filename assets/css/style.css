@@ -89,7 +89,7 @@ section {
     background-position: center;
     position: relative;
 }
-/* End of hero style sheet */
+
 
 /* div in hero style */
 .hero-form{
@@ -136,6 +136,8 @@ section {
     padding: 10px 20px;
     font-size:  16px;
 }
+/* End of hero style sheet */
+
 
 /* form-input styling */
 .form-input {
