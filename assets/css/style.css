@@ -11,7 +11,7 @@ body {
     color: #39a6b2;
     font-family: Helvetica,Arial, sans-serif;
 }
-/* apply styles to the <header> */
+/* apply styles to the <header>  */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -57,11 +57,11 @@ header nav ul li a {
 /* Adding background color, width and padding to footer */
 footer {
     background: #fce138;
-    width: 100%;
     padding: 40px 35px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 /* Changing just the h2 in the footer */
@@ -314,21 +314,27 @@ section {
     
     background: #024e76;
 }
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
+}
+
 .contact h2 {
     color: #fce138;
 }
 
 .contact-info iframe {
-    width: 400px;
     height: 400px;
 }
 
 .contact-info div {
-    width: 410px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
-    margin: 30px 0 0 60px;
     color: white;
   }
 
@@ -340,8 +346,29 @@ section {
 .contact-info p, .contact-info address {
     margin: 20px 0;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
+}
+
+.contact-form input, .contact-form textarea {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.contact-form button {
+    width: 100%;
+    border: none;
+    background: #fce138;
+    color: #024e76;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
 }
 
 .contact-info a {
@@ -349,6 +376,14 @@ section {
 }
 
 /* reach out styles ends*/
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
 
 .flex-row {
     display: flex;
