@@ -1,19 +1,22 @@
 # Run Buddy, Inc.
 
+- Github URL: https://github.com/DanielCConlon/run-buddy
+- github pages: https://danielcconlon.github.io/run-buddy/
 
-## Purpose
-A website that offers fitness training services.
+## Table-of-Contents
 
-## Built with
-* HTML
-* CSS
+- [Description](#description)
+- [Usage](#usage)
+- [Application](#application)
 
+## [Description](#description)
 
-## Website
-https://danielcconlon.github.io/run-buddy/
+A website that offers fitness training services. Built following a course module using HTML and CSS.
 
-## Contribution
-Made with ❤️ by Daniel
+## [Usage](#table-of-contents)
 
+Go to the website and follow whats shown on screen.
 
-### ©️2019 Run Buddy, Inc
+## [Application](#table-of-contents)
+
+![Website image](./assets/images/Capture.PNG)
